@@ -1,0 +1,46 @@
+[
+    {
+        "id": "cLAly",
+        "firstname": "Donny",
+        "lastname": "Pramudia",
+        "username": "donny cms user",
+        "phone": "081908464036",
+        "email": "donny@cmsuser.com",
+        "password": "donny123",
+        "id_identifier": "3",
+        "token": "Dc2LFFYt7f6AyGgx7eY0vA9qeOY5RdTS"
+    },
+    {
+        "id": "wTERQ",
+        "firstname": "lily",
+        "lastname": "lily",
+        "username": "lilyy",
+        "phone": "087789076543",
+        "email": "lily@cmsuser.com",
+        "password": "123123",
+        "id_identifier": "3",
+        "token": "2ZvLLzMdo6xQBh3QpbfaFOvNmuuNmOQY"
+    },
+    {
+        "id": "hX59T",
+        "firstname": "Rezky",
+        "lastname": "Kukuh",
+        "username": "rzkukuh",
+        "phone": "081944327865",
+        "email": "rzkukuh@cmsuser.com",
+        "password": "909090",
+        "id_identifier": "3",
+        "token": "SfQDI0aG6J1qV6rL2T1n3z6nzV8r54k1"
+    },
+    {
+        "id": "iadRE",
+        "firstname": "Test",
+        "lastname": "CMS User",
+        "username": "testcmsuser1",
+        "phone": "081908464036",
+        "email": "example1@example.com",
+        "password": "112211",
+        "id_identifier": "3",
+        "token": "jgmGOGuFDyLKr7iWVRP5DFKcAYtNO3vd"
+    }
+]

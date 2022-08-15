@@ -1,0 +1,68 @@
+[
+    {
+        "id": "IPJyD",
+        "firstname": "Donny",
+        "lastname": "Pramudia",
+        "username": "donny",
+        "phone": "081908464036",
+        "email": "donnypramudia04@gmail.com",
+        "password": "112233",
+        "id_identifier": "2",
+        "token": "Y6wovzLfocr3fvczOSFS9s0Nblzgg7kl"
+    },
+    {
+        "id": "RdED7",
+        "firstname": "rezky",
+        "lastname": "kukuh",
+        "username": "rzkukuh",
+        "phone": "08080890988",
+        "email": "rzkukuh@gmail.com",
+        "password": "654321",
+        "id_identifier": "2",
+        "token": "D0ooKuuulDU6gXfNvFQRkBfjWFZRIK9q"
+    },
+    {
+        "id": "Ten2K",
+        "firstname": "lily",
+        "lastname": "admin",
+        "username": "lily",
+        "phone": "08788779978",
+        "email": "lily@admin.com",
+        "password": "123123",
+        "id_identifier": "2",
+        "token": "PoZnZXRjK36986UJHDiX7mJlXmtuh2XT"
+    },
+    {
+        "id": "J71Te",
+        "firstname": "admin",
+        "lastname": "satu",
+        "username": "admsatu",
+        "phone": "081908464036",
+        "email": "admin1@admin.com",
+        "password": "admin123",
+        "id_identifier": "2",
+        "token": "P1nQelDPek34PazHHKePx2S42o0DHQNP"
+    },
+    {
+        "id": "DgxDw",
+        "firstname": "Donny",
+        "lastname": "Marzuki",
+        "username": "dpm1122",
+        "phone": "081908464036",
+        "email": "donnypramudia04@gmail.com",
+        "password": "121212",
+        "id_identifier": "2",
+        "token": "hNH8eVNReHS1VyjvAUN5prPID1yh7IfC"
+    },
+    {
+        "id": "LxhRo",
+        "firstname": "test",
+        "lastname": "test",
+        "username": "testnew",
+        "phone": "081908464036",
+        "email": "test@gmail.com",
+        "password": "121212",
+        "id_identifier": "2",
+        "token": "c6BByXGXhouhLjjYzqbs3BsxQdrPmmNz"
+    }
+]

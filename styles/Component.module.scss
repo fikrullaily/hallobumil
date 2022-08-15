@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+
+.content {
+  max-width: 1000px;
+}
+
+//Side Bar
+.sidenav {
+  height: 100%;
+  width: 198px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.77);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  margin-top: 30px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #000000;
+  background-color: #c4c4c4;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #fbd3c4;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav > li {
+  list-style-type: none;
+}
+
+.sidenav .activeNav {
+  background-color: #fbd3c4;
+  font-weight: bold;
+}
+
+.sidenav .nonactiveNav {
+  background-color: #c4c4c4;
+}
+
+// NAVBAR
+/*   color variables */
+$clr-primary: #f58c8b;
+$clr-primary-hover: #fce4ec;
+$clr-gray300: #e1e5ee;
+
+/*   border radius */
+$radius: 0.2rem;
+
+.nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  margin-left: 198px;
+  background-color: #3b3b3b;
+  color: $clr-primary;
+  font-family: "Comfortaa", cursive;
+  z-index: 3;
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 0rem;
+
+    &logo {
+      list-style: none;
+      margin-right: auto;
+      cursor: default;
+
+      svg {
+        width: 2.5rem;
+        transition: fill 250ms ease-in;
+
+        &:hover,
+        &:focus {
+          fill: $clr-primary;
+        }
+      }
+    }
+
+    &item {
+      list-style: none;
+      font-weight: bold;
+      position: relative;
+      padding: 1.5rem 1rem;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        width: 0;
+        height: 0.3rem;
+        border-radius: $radius;
+        position: absolute;
+        left: 1rem;
+        bottom: 0.8rem;
+        background-color: $clr-primary;
+        transition: width 200ms ease-in;
+      }
+
+      &:hover::after,
+      &:focus::after {
+        width: 80%;
+      }
+
+      &:hover ul,
+      &:focus ul {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &drop {
+        position: absolute;
+        top: 5rem;
+        right: 0rem;
+        box-shadow: 0 0 10px #fbd3c4;
+        background-color: white;
+        border-radius: $radius;
+        width: 12rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 200ms ease-in-out;
+        background-color: #3b3b3b;
+
+        li {
+          list-style: none;
+          padding: 0.5rem 1rem;
+          border-radius: $radius;
+          transition: background-color 200ms ease-in-out;
+
+          &:hover,
+          &:focus {
+            background-color: $clr-primary-hover;
+          }
+        }
+      }
+    }
+  }
+}

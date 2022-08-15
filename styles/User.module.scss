@@ -1,0 +1,152 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: auto;
+  top: 15%;
+  left: 35%;
+}
+
+.avatarHome {
+  height: 300px;
+  width: 300px;
+  align-self: center;
+}
+
+.section {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.section img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+}
+
+.section img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.imgBox {
+  height: 230px;
+  width: 230px;
+}
+
+.contentBox {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+}
+
+.formName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.inputBoxUp {
+  height: 44px;
+  width: 242px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  height: 44px;
+  width: 550px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.btn__submit {
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+  width: 169px;
+  left: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+  cursor: pointer;
+}
+
+.iconVisible {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.spanUp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content__konsul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn__konsul {
+  background-color: #f9b29e;
+  border-radius: 20px;
+  width: 200px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .section img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .logo__login img {
+    margin-top: 30px;
+    left: 200px;
+  }
+}

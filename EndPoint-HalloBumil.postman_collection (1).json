@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "9924862b-7413-427e-8591-3e75ddbfd59a",
+		"name": "EndPoint-HalloBumil",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REGISTER",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "Randy5",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Pratama",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "3randy@asas.com",
+							"type": "text"
+						},
+						{
+							"key": "handphone",
+							"value": "085954648112",
+							"type": "text"
+						},
+						{
+							"key": "identifier",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "specialist",
+							"value": "ghghgghgh",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "randypratma1234",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "tamasure",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8085/api/registerSecure",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"api",
+						"registerSecure"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8085/api/registerSecure?email=3randy@asas.com&password=randypratma1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"api",
+						"registerSecure"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "3randy@asas.com"
+						},
+						{
+							"key": "password",
+							"value": "randypratma1234"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

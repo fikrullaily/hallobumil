@@ -1,0 +1,8 @@
+{
+  "artikelMingguan.js -> suneditor-react": {
+    "id": "./node_modules/suneditor-react/dist/index.js",
+    "files": [
+      "static/chunks/node_modules_suneditor-react_dist_index_js.js"
+    ]
+  }
+}

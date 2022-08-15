@@ -1,0 +1,80 @@
+.btnAction {
+  justify-content: space-between;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inpForm {
+  display: block;
+  width: 505px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.inputForm {
+  display: block;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.inputForm1 {
+  display: block;
+  width: 740px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inpForm1 {
+  display: block;
+  width: 740px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  line-height: 20px;
+}
+
+// CSS MODAL DETAIL (ini kalo taro di global jadi brantakan)
+.items .item {
+  width: 100%;
+  color: #000000;
+  padding: 12px;
+  font-weight: 900;
+}
+.card {
+  float: left;
+  margin-left: 25%;
+  align-content: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+.card2 {
+  float: left;
+  margin-left: 10%;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+
+// DETAIL ARTIKEL MINGGUAN
+.detail {
+  display: flex;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.detailTxt {
+  margin-left: 20px;
+  padding: 10px;
+}
